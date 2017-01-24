@@ -1,0 +1,11 @@
+*~
+.*.swp
+*#*
+.DS_Store
+/rails-chat/.bundle
+/rails-chat/vendor/bundler
+/rails-chat/vendor/bin
+/rails-chat/db/*.sqlite3
+/rails-chat/db/*.sqlite3-journal
+/rails-chat/log/*.log
+/rails-chat/tmp

@@ -1,0 +1,21 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+development:
+  <<: *default
+  database: rails-chat_development
+
+test:
+  <<: *default
+  database: rails-chat_test
+
+production:
+  <<: *default
+  database: rails-chat_production
+  username: rails-chat
+  password: <%= ENV['RAILS-CHAT_DATABASE_PASSWORD'] %>

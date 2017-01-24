@@ -1,0 +1,15 @@
+#messages
+  - @messages.each do |message|
+    ul.menu
+      li.menu-item
+        .chip
+          .chip-icon
+            img.avatar src="https://picturepan2.github.io/spectre/demo/img/avatar-4.png"
+          .chip-content
+            = message.content
+
+.input-group
+  input.form-input#room-input type="text" placeholder="Message"
+  button.btn.btn-primary.input-group-btn#room-button
+    i.fa.fa-paper-plane
+    | Send
