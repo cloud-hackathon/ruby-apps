@@ -1,4 +1,4 @@
-# Simple Chat application
+# Simple chat application
 
 ![screenshot](./screenshot.png)
 

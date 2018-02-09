@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+ruby '2.3.1'
+
+gem 'ruboty'
+gem 'ruboty-slack_rtm'
+gem 'ruboty-http_listener', github: 'hico-horiuchi/ruboty-http_listener'

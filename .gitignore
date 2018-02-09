@@ -9,3 +9,6 @@
 /rails-chat/db/*.sqlite3-journal
 /rails-chat/log/*.log
 /rails-chat/tmp
+/ruboty-bot/.bundle
+/ruboty-bot/vendor/bundler
+/ruboty-bot/vendor/bin
