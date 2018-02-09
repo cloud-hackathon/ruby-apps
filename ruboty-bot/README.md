@@ -1,5 +1,7 @@
 # Simple bot application
 
+![screenshot](./screenshot.png)
+
 ## Getting started
 
 1. Clone sample apps
